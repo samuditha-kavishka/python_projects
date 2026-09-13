@@ -5,6 +5,7 @@ A collection of Python projects, coding exercises, and mini projects created whi
 ## Projects
 
 - Rock Paper Scissors
+- Area Calculator
 
 ## Technologies
 
