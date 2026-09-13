@@ -1,0 +1,29 @@
+import math
+
+print("==================");
+print("Area Calculator 📐");
+print("==================");
+print("\n\n");
+print("1) Triangle \n2) Rectangle \n3) Square \n4) Circle \n5) Quit\n\n");
+option = int(input("Which shape: "));
+
+if option == 1:
+  height = float(input("Enter the Triangle height: "));
+  base = float(input("Enter the Triangle base: "));
+  area = (height * base) / 2
+elif option == 2:
+  length = float(input("Enter the Rectangle length: "));
+  width = float(input("Enter the Rectangle width: "));
+  area = length * width
+elif option == 3:
+  side = float(input("Enter the Square length of side: "));
+  area = side ** 2
+elif option == 4:
+  radius = float(input("Enter the Circle radius: "));
+  area = math.pi * radius ** 2
+elif option == 5:
+  print("Good Byee !");
+else:
+  print("wrong option, Try again! ");
+
+print(f"The area is {area}");
